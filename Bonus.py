@@ -1,9 +1,12 @@
 import sys
+
 if len(sys.argv) != 2:
-    print( python Bonus.py <salary>")
-    sys.exit(1)
+    print("Usage: python salary_bonus.py <salary>")
+    sys.exit()
+
 salary = float(sys.argv[1])
 bonus = salary * 0.10
-total_salary = salary + bonus
+total = salary + bonus
+
 print("Bonus Amount:", bonus)
-print("Total Salary After Adding Bonus:", total_salary)
+print("Total Salary:", total)
