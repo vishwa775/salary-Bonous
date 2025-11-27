@@ -1,6 +1,6 @@
 import sys
 if len(sys.argv) != 2:
-    print( python salary_bonus_calculator.py <salary>")
+    print( python Bonus.py <salary>")
     sys.exit(1)
 salary = float(sys.argv[1])
 bonus = salary * 0.10
